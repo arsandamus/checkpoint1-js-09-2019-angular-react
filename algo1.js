@@ -17,3 +17,23 @@ Au final la liste devra ressembler à :
 
 Écrire une fonction qui retourne un tableau comprenant tous les numéros des sièges.
 */
+
+const planTheatre = () => {
+  const tab1 = []
+  for (let i = 1; i <= 26 ; i++) {
+    tab1.push(i)}
+  return tab1.map(index => {
+    for (let j = 1; j <= 100 ; j++){
+      console.log(`${index} - ${j}`)
+    }
+    })
+  }
+  
+planTheatre()
+
+
+//créer un tableau vide colonne
+//faire une boucle pour l'incrémenter
+//créer un tableau vide ligne
+//faire une boucle pour l'incrémenter
+//ajouter au fur et à mesure chaque élément du tab 2 à chaque élément
