@@ -30,10 +30,3 @@ const planTheatre = () => {
   }
   
 planTheatre()
-
-
-//créer un tableau vide colonne
-//faire une boucle pour l'incrémenter
-//créer un tableau vide ligne
-//faire une boucle pour l'incrémenter
-//ajouter au fur et à mesure chaque élément du tab 2 à chaque élément
